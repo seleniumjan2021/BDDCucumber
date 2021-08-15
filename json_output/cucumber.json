@@ -1,0 +1,148 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4155621891,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.setUp()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "User Logout Scenario",
+        "description": "",
+        "id": "ui-cogmento-login-feature;user-logout-scenario",
+        "after": [
+          {
+            "result": {
+              "duration": 30056,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10800926882,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User is already on LoginPage",
+            "match": {
+              "location": "stepDefinitions.user_is_already_on_LoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 18513383,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Title of the Page is CogmentoCRM",
+            "match": {
+              "location": "stepDefinitions.title_of_the_page_is_CogmentoCRM()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4560083664,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user enters the \"aakash.er@gmail.com\" and \"lucknow_1000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "aakash.er@gmail.com",
+                  "offset": 17
+                },
+                {
+                  "val": "lucknow_1000",
+                  "offset": 43
+                }
+              ],
+              "location": "stepDefinitions.user_enters_the_username_and_password(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2105849746,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "clicks on Submit loginButton",
+            "match": {
+              "location": "stepDefinitions.clicks_on_submit_loginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4041733727,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "verify user is on HomePage",
+            "match": {
+              "location": "stepDefinitions.verify_user_is_on_HomePage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 11265290796,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "logout from the application",
+            "match": {
+              "location": "stepDefinitions.logout_from_the_application()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 174078666,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "close the browser",
+            "match": {
+              "location": "stepDefinitions.close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 22,
+            "name": "@Sanity"
+          },
+          {
+            "line": 22,
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "UI Cogmento Login Feature",
+    "description": "",
+    "id": "ui-cogmento-login-feature",
+    "keyword": "Feature",
+    "uri": "login.feature"
+  }
+]

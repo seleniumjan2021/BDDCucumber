@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="37.122129">
+<testcase classname="UI Cogmento Login Feature" name="User Logout Scenario" time="37.122129">
+<system-out><![CDATA[Given User is already on LoginPage..........................................passed
+When Title of the Page is CogmentoCRM.......................................passed
+Then user enters the "aakash.er@gmail.com" and "lucknow_1000"...............passed
+And clicks on Submit loginButton............................................passed
+Then verify user is on HomePage.............................................passed
+And logout from the application.............................................passed
+And close the browser.......................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
